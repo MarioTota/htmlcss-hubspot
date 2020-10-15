@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.container {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  background-color: violet;
+}
+
 .header-top {
   width: 100%;
   height: 10vh;
@@ -40,8 +47,8 @@
   background-color: lightyellow;
 }
 
-footer {
+.footer {
   width: 100%;
   height: 80vh;
-  background-color: blue;
+  background-color: grey;
 }
