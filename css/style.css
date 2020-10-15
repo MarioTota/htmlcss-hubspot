@@ -186,9 +186,28 @@
   width: 100%;
   height: 100%;
 }
-.footer-top .left.center-left.center-right.right {
+.footer-block {
+  width: 24%;
+  height: 39%;
+  background-color: red;
   display: inline-block;
-  width: 5%;
-  height: 5%;
+}
+
+.sidebar {
+  float: right;
+  /* width: 19%;
+  height: 6%; */
+  background-color: white;
+  margin-right: 38px;
+  position: relative;
+}
+
+.footer-top i {
+  float: right;
+}
+
+.sidebar i {
+  width: 19%;
+  height: 6%;
   background-color: red;
 }
