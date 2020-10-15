@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -9,26 +10,104 @@
   margin: auto;
   background-color: violet;
 }
-
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
 .header-top {
   width: 100%;
   height: 10vh;
   background-color: lightblue;
+  border-bottom: 1px solid black;
 }
+.english {
+  float: left;
+  height: 10vh;
+  background-color: red;
+  line-height: 10vh;
+  vertical-align: middle;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+.contact-us {
+  float: left;
+  height: 10vh;
+  background-color: red;
+  float: left;
+  line-height: 10vh;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+.gethubspot {
+  float: right;
+  background-color: red;
+  height: 10vh;
+  background-color: red;
+  line-height: 10vh;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+.login {
+  float: right;
+  background-color: red;
+  height: 10vh;
+  background-color: red;
+  line-height: 10vh;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+.header-top i:last-child {
+  float: right;
+  line-height: 10vh;
+  vertical-align: middle;
+}
+
 .header-bottom {
   width: 100%;
   height: 10vh;
   background-color: lightgrey;
 }
+.header-bottom .container:first-child{
+  line-height: 10vh;
+  vertical-align: middle;
+}
+.about {
+  float: right;
+}
+.partners {
+  float: right;
+}
+.resources {
+  float: right;
+}
+.pricing {
+  float: right;
+}
+.software {
+  float: right;
+}
+
 .jumbotron {
   width: 100%;
   height: 80vh;
   background-color: lightgreen;
 }
-.blue-space {
-  width: 100%;
-  height: 10vh;
-  background-color: lightblue;
+.jumbotron .container {
+  background-image: url(../img/jumbotron.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#title {
+  width: 30%;
+  height: 20%;
+  background-color: lightgrey;
+}
+#subtitle {
+  width: 30%;
+  height: 20%;
+  background-color: yellow;
 }
 
 .container-top {
