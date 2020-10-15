@@ -6,11 +6,10 @@
 
 .container {
   width: 75%;
-  height: 100%;
+  height: 123%;
   margin: auto;
-  background-color: violet;
 }
-.clearfix {
+.clearfix.footer-top {
   content: "";
   display: table;
   clear: both;
@@ -24,7 +23,6 @@
 .english {
   float: left;
   height: 10vh;
-  background-color: red;
   line-height: 10vh;
   vertical-align: middle;
   border-right: 1px solid black;
@@ -33,7 +31,6 @@
 .contact-us {
   float: left;
   height: 10vh;
-  background-color: red;
   float: left;
   line-height: 10vh;
   vertical-align: middle;
@@ -42,18 +39,14 @@
 
 .gethubspot {
   float: right;
-  background-color: red;
   height: 10vh;
-  background-color: red;
   line-height: 10vh;
   vertical-align: middle;
   padding-left: 20px;
 }
 .login {
   float: right;
-  background-color: red;
   height: 10vh;
-  background-color: red;
   line-height: 10vh;
   vertical-align: middle;
   padding-left: 20px;
@@ -108,43 +101,94 @@
 }
 #subtitle {
   width: 40%;
-  height: 10%;
+  height: 15%;
   background-color: yellow;
 }
 
 .container-top {
   width: 100%;
-  height: 120vh;
+  height: 200vh;
   background-color: lightgreen;
+  text-align: center;
 }
 .container-logo-top {
   width: 80%;
-  height: 30%;
+  height: 20%;
   background-color: red;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .container-feature {
   width: 80%;
-  height: 30%;
+  height: 20%;
   background-color: blue;
   margin: auto;
   margin-top: 30px;
+}
+.container-top .left,.center,.right {
+  display: inline-block;
+  width: 29%;
+  height: 36%;
+  background-color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
 }
 
 .container-mid {
   width: 100%;
   height: 80vh;
   background-color: lightblue;
+
 }
+.table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.block {
+  width: 24%;
+  height: 24%;
+  background-color: red;
+  display: inline-block;
+}
+
 .container-bottom {
   width: 100%;
   height: 80vh;
   background-color: lightyellow;
 }
-
+.ncustomers {
+  width: 28%;
+  height: 28%;
+  background-color: red;
+  display: inline-block;
+}
+.atlassian {
+  float: right;
+  width: 60%;
+  height: 24%;
+  background-color: red;
+  display: inline-block;
+}
+.startgrowing {
+  width: 50%;
+  height: 27%;
+  background-color: red;
+}
 .footer {
   width: 100%;
   height: 80vh;
   background-color: grey;
+}
+
+.footer-top {
+  width: 100%;
+  height: 100%;
+}
+.footer-top .left.center-left.center-right.right {
+  display: inline-block;
+  width: 5%;
+  height: 5%;
+  background-color: red;
 }
