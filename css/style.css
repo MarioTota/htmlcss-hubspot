@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top {
+  width: 100%;
+  height: 10vh;
+  background-color: lightblue;
+}
+.header-bottom {
+  width: 100%;
+  height: 10vh;
+  background-color: lightgrey;
+}
+.jumbotron {
+  width: 100%;
+  height: 80vh;
+  background-color: lightgreen;
+}
+.blue-space {
+  width: 100%;
+  height: 10vh;
+  background-color: lightblue;
+}
+
+.container-top {
+  width: 100%;
+  height: 120vh;
+  background-color: lightgreen;
+}
+.container-mid {
+  width: 100%;
+  height: 80vh;
+  background-color: lightblue;
+}
+.container-bottom {
+  width: 100%;
+  height: 80vh;
+  background-color: lightyellow;
+}
+
+footer {
+  width: 100%;
+  height: 80vh;
+  background-color: blue;
+}
