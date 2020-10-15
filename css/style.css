@@ -88,10 +88,12 @@
 .software {
   float: right;
 }
-
+.about,.partners,.resources,.pricing,.software {
+  background-color: red;
+}
 .jumbotron {
   width: 100%;
-  height: 80vh;
+  height: 65vh;
   background-color: lightgreen;
 }
 .jumbotron .container {
@@ -100,13 +102,13 @@
   background-repeat: no-repeat;
 }
 #title {
-  width: 30%;
+  width: 40%;
   height: 20%;
   background-color: lightgrey;
 }
 #subtitle {
-  width: 30%;
-  height: 20%;
+  width: 40%;
+  height: 10%;
   background-color: yellow;
 }
 
@@ -114,6 +116,12 @@
   width: 100%;
   height: 120vh;
   background-color: lightgreen;
+}
+.container-logo {
+  width: 80%;
+  height: 20%;
+  background-color: red;
+  margin: auto;
 }
 .container-mid {
   width: 100%;
