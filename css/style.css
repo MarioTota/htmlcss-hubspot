@@ -194,7 +194,6 @@ header {
   height: 100%;
   float: right;
 }
-
 #block-right h3 {
   padding-top: 60px;
   font-size: 30px;
@@ -211,16 +210,26 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 }
-.container-top .left,.center,.right {
+
+.container-top .column {
   display: inline-block;
   width: 29%;
   height: 36%;
-  background-color: red;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
+  background-color: white;
 }
 
+.column img {
+  width: 100px;
+  height: 100px;
+  padding-top: 50px;
+}
+.column h3 {
+  padding-top: 20px;
+  font-weight: bolder;
+}
 .container-mid {
   width: 100%;
   height: 80vh;
