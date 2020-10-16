@@ -196,12 +196,14 @@ header {
 }
 #block-right h3 {
   padding-top: 60px;
+  padding-bottom: 30px;
   font-size: 30px;
 }
 #block-right h4 {
   text-transform: uppercase;
   font-size: 20px;
   padding-bottom: 30px;
+  padding-top: 25px;
 }
 #block-right i {
   color: orange;
@@ -211,16 +213,36 @@ header {
   padding-right: 15px;
 }
 
-.container-top .column {
-  display: inline-block;
+.column {
+  /* display: inline-block;
   width: 29%;
   height: 36%;
+  margin: auto;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 20px; */
   margin-top: 40px;
   background-color: white;
 }
-
+.column.left {
+  width: 30%;
+  display: inline-block;
+  margin: 5px;
+}
+.column.center {
+  width: 30%;
+  display: inline-block;
+  margin: 5px;
+}
+.column.right {
+  width: 30%;
+  margin: 5px;
+  display: inline-block;
+}
+.spessore {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
 .column img {
   width: 100px;
   height: 100px;
@@ -230,6 +252,27 @@ header {
   padding-top: 20px;
   font-weight: bolder;
 }
+.column p {
+  padding-bottom: 90px;
+  border-bottom: 1px solid black;
+}
+.column h3,p {
+  padding: 10px;
+}
+.column h4 {
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.column span {
+  display: block;
+  text-align: left;
+}
+.column i {
+  padding-right: 10px;
+  color: #FC7959;
+}
+
 .container-mid {
   width: 100%;
   height: 80vh;
