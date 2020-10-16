@@ -4,105 +4,148 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.container-75 {
   width: 75%;
-  height: 123%;
-  margin: auto;
+  height: 100%;
+  margin: 0 auto;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .clearfix.footer-top {
   content: "";
   display: table;
   clear: both;
 }
-.header-top {
+
+/* bottoni */
+.button-orange {
+  width: 119px;
+  height: 26px;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #FC7959;
+  color: white;
+  background-color: #FC7959;
+}
+
+.button-orange-big {
+  width: 119px;
+  height: 26px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid #FC7959;
+  color: white;
+  background-color: #FC7959;
+}
+
+.button-white {
+  width: 60px;
+  height: 26px;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #FC7959;
+  color: #FC7959;
+  background-color: white;
+}
+/* /bottoni */
+
+header {
+  position: relative;
+}
+
+#header-top {
   width: 100%;
-  height: 10vh;
-  background-color: lightblue;
+  height: 8vh;
+  background-color: #EAF0F6;
   border-bottom: 1px solid black;
 }
-.english {
+
+#header-top-left {
   float: left;
-  height: 10vh;
-  line-height: 10vh;
+  height: 8vh;
+  line-height: 8vh;
   vertical-align: middle;
-  border-right: 1px solid black;
   padding-right: 20px;
 }
-.contact-us {
-  float: left;
-  height: 10vh;
-  float: left;
-  line-height: 10vh;
-  vertical-align: middle;
+#header-top-left a:nth-of-type(3) {
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+#header-top-left a:last-child {
   padding-left: 20px;
 }
 
-.gethubspot {
+#header-top-right {
   float: right;
-  height: 10vh;
-  line-height: 10vh;
+  height: 8vh;
+  line-height: 8vh;
   vertical-align: middle;
-  padding-left: 20px;
 }
-.login {
-  float: right;
-  height: 10vh;
-  line-height: 10vh;
-  vertical-align: middle;
-  padding-left: 20px;
+#header-top-right a:first-child {
+  color: #36aec4;
+  padding-right: 20px;
 }
-.header-top i:last-child {
-  float: right;
-  line-height: 10vh;
-  vertical-align: middle;
+#header-top-right a:last-child {
+  margin-left: 20px;
 }
 
-.header-bottom {
+#header-bottom {
   width: 100%;
-  height: 10vh;
-  background-color: lightgrey;
-}
-.header-bottom .container:first-child{
+  height: 8vh;
   line-height: 10vh;
   vertical-align: middle;
 }
-.about {
+#header-bottom-right {
   float: right;
+  height: 8vh;
+  line-height: 8vh;
+  vertical-align: middle;
 }
-.partners {
-  float: right;
+#header-bottom-right a {
+  padding-left: 8px;
+  padding-right: 8px;
 }
-.resources {
-  float: right;
-}
-.pricing {
-  float: right;
-}
-.software {
-  float: right;
-}
-.about,.partners,.resources,.pricing,.software {
-  background-color: red;
-}
-.jumbotron {
+
+#jumbotron {
   width: 100%;
   height: 63vh;
-  background-color: lightgreen;
 }
-.jumbotron .container {
+#jumbotron {
+  background-color: #FEF6EF;
   background-image: url(../img/jumbotron.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
 }
-#title {
-  width: 40%;
-  height: 20%;
-  background-color: lightgrey;
+#blue-row {
+  width: 100%;
+  height: 54px;
+  background-color: #AFEBE5;
+  border-top: 3px solid #33475D;
+  border-bottom: 3px solid #33475D;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
-#subtitle {
-  width: 40%;
-  height: 15%;
-  background-color: yellow;
+
+#containerh1 {
+  width: 50%;
+  height: 70%;
+}
+#containerh1 h1, p, a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#containerh1 h1 {
+  font-weight: 900;
+}
+#containerh1 a {
+  display: block;
 }
 
 .container-top {
@@ -116,7 +159,6 @@
   height: 20%;
   background-color: red;
   margin: auto;
-  margin-top: 40px;
 }
 .container-feature {
   width: 80%;
