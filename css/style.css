@@ -151,21 +151,40 @@ header {
 .container-top {
   width: 100%;
   height: 200vh;
-  background-color: lightgreen;
   text-align: center;
 }
-.container-logo-top {
+.container-crm {
   width: 80%;
   height: 20%;
-  background-color: red;
-  margin: auto;
 }
-.container-feature {
-  width: 80%;
-  height: 20%;
-  background-color: blue;
+.container-crm.top {
   margin: auto;
   margin-top: 30px;
+}
+.container-crm.top img {
+  width: 25%;
+}
+
+.container-crm.bottom {
+  margin: auto;
+  margin-top: 30px;
+}
+#block-left {
+  width: 281px;
+  height: 100%;
+}
+.container-crm.bottom img {
+  width: 54%;
+  float: left;
+  padding-top: 66px;
+  padding-left: 90px;
+  padding-bottom: 30px;
+}
+
+.container-crm.botton a {
+  display: block;
+  float: left;
+  margin-left: 100px;
 }
 .container-top .left,.center,.right {
   display: inline-block;
