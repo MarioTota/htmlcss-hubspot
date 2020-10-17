@@ -323,6 +323,11 @@ td {
 }
 td i {
   font-size: 32px;
+}
+#webp {
+  height: 40px;
+}
+td i,td img, #webp{
   padding-bottom: 6%;
 }
 .table-count {
@@ -331,13 +336,19 @@ td i {
   font-weight: 900;
   display: inline;
 }
-.table-count::after {
-  content: "&#43;";
+td span {
+  font-size: 22px;
+  line-height: 100%;
+  vertical-align: middle;
+  font-weight: 100;
+}
+.description {
+  padding-top: 5%;
 }
 .container-bottom {
   width: 100%;
   height: 80vh;
-  background-color: lightyellow;
+  background-color: white;
 }
 .ncustomers {
   width: 28%;
