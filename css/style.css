@@ -31,7 +31,6 @@ a {
   color: white;
   background-color: #FC7959;
 }
-
 .button-orange-big {
   width: 119px;
   height: 26px;
@@ -41,7 +40,6 @@ a {
   color: white;
   background-color: #FC7959;
 }
-
 .button-white {
   width: 60px;
   height: 26px;
@@ -62,6 +60,10 @@ header {
   height: 8vh;
   background-color: #EAF0F6;
   border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 #header-top-left {
@@ -73,7 +75,10 @@ header {
 }
 #header-top-left a:nth-of-type(3) {
   padding-right: 20px;
-  border-right: 1px solid black;
+}
+#header-top-left a:last-child {
+  border-left: 1px solid black;
+  padding: 0;
 }
 #header-top-left a:last-child {
   padding-left: 20px;
@@ -98,6 +103,7 @@ header {
   height: 8vh;
   line-height: 10vh;
   vertical-align: middle;
+  margin-top: 8vh;
 }
 #header-bottom-right {
   float: right;
@@ -156,7 +162,7 @@ header {
 }
 .container-crm {
   width: 100%;
-  height: 20%;
+  height: 25%;
 }
 .container-crm.top {
   margin: auto;
@@ -164,6 +170,10 @@ header {
 }
 .container-crm.top img {
   width: 25%;
+  padding-top: 3%
+}
+.container-crm.top p {
+  padding-top: 5%;
 }
 
 .container-crm.bottom {
@@ -214,29 +224,27 @@ header {
 }
 
 .column {
-  /* display: inline-block;
-  width: 29%;
-  height: 36%;
-  margin: auto;
-  margin-left: 20px;
-  margin-right: 20px; */
   margin-top: 40px;
   background-color: white;
 }
 .column.left {
   width: 30%;
   display: inline-block;
-  margin: 5px;
+  float: left;
 }
 .column.center {
   width: 30%;
   display: inline-block;
-  margin: 5px;
 }
 .column.right {
   width: 30%;
-  margin: 5px;
   display: inline-block;
+  float: right;
+}
+.column.left a, .column.center a, .column.right a {
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 .spessore {
   width: 80%;
@@ -276,13 +284,21 @@ header {
 .container-mid {
   width: 100%;
   height: 80vh;
-  background-color: lightblue;
-
+  background: rgb(32,172,182);
+  background: linear-gradient(90deg, rgba(32,172,182,1) 35%, rgba(35,188,165,1) 100%);
+  color: white;
+  text-align: center;
+}
+.learngrow h2 {
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+.learngrow p {
+  padding-bottom: 4%;
 }
 .table {
   width: 100%;
   height: 100%;
-  text-align: center;
 }
 .block {
   width: 24%;
@@ -290,7 +306,12 @@ header {
   background-color: red;
   display: inline-block;
 }
-
+.block.a,.block.b,.block.c,.block.d {
+  border-bottom: 1px solid white;
+}
+.block.a,.block.b,.block.c,.block.e,.block.f,.block.g {
+  border-right: 1px solid white;
+}
 .container-bottom {
   width: 100%;
   height: 80vh;
