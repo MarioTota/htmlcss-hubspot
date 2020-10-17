@@ -288,6 +288,7 @@ header {
   background: linear-gradient(90deg, rgba(32,172,182,1) 35%, rgba(35,188,165,1) 100%);
   color: white;
   text-align: center;
+  position: relative;
 }
 .learngrow h2 {
   padding-top: 4%;
@@ -302,15 +303,36 @@ header {
 }
 .block {
   width: 24%;
-  height: 24%;
-  background-color: red;
+  height: 27%;
   display: inline-block;
 }
-.block.a,.block.b,.block.c,.block.d {
-  border-bottom: 1px solid white;
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-collapse: collapse;
+  border-style: hidden;
+  width: 75%;
+  height: 60%;
+  margin-top: 5%;
 }
-.block.a,.block.b,.block.c,.block.e,.block.f,.block.g {
-  border-right: 1px solid white;
+td {
+  padding: 20px 20px;
+  border: 1px solid white;
+}
+td i {
+  font-size: 32px;
+  padding-bottom: 6%;
+}
+.table-count {
+  width: 47px;
+  font-size: 40px;
+  font-weight: 900;
+  display: inline;
+}
+.table-count::after {
+  content: "&#43;";
 }
 .container-bottom {
   width: 100%;
