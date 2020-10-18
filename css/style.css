@@ -147,7 +147,7 @@ header {
 
 #container-top {
   width: 100%;
-  height: 172vh;
+  height: 187vh;
   background-color: #F6F8FA;
   text-align: center;
 }
@@ -244,31 +244,29 @@ header {
   padding-top: 17%;
 }
 .column h3 {
-  padding-top: 20px;
+  padding-top: 3%;
+  padding-bottom: 10%;
   font-weight: bolder;
 }
 .column p {
-  padding-bottom: 90px;
+  padding-bottom: 30%;
   border-bottom: 1px solid black;
 }
-.column h3,.column p {
-  padding: 10px;
-}
+
 .column h4 {
   text-transform: uppercase;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 10% 0;
 }
 .column span {
   display: block;
   text-align: left;
 }
 .column i {
-  padding-right: 10px;
+  padding-right: 8%;
   color: #FC7959;
 }
 
-.container-mid {
+#container-mid {
   width: 100%;
   height: 80vh;
   background: rgb(32,172,182);
@@ -277,7 +275,7 @@ header {
   text-align: center;
   position: relative;
 }
-.learngrow h2 {
+#learngrow h2 {
   padding-top: 4%;
   padding-bottom: 3%;
 }
@@ -305,8 +303,13 @@ table {
   margin-top: 5%;
 }
 td {
-  padding: 20px 20px;
+  width: 23%;
+  padding: 2% 2%;
   border: 1px solid white;
+}
+.td {
+  width: 100%;
+  height: 100%;
 }
 td i {
   font-size: 32px;
@@ -332,13 +335,13 @@ td span {
 .description {
   padding-top: 5%;
 }
-.container-bottom {
+#container-bottom {
   width: 100%;
   height: 80vh;
   background-color: white;
   color: #33475B;
 }
-.ncustomers {
+#ncustomers {
   width: 28%;
   height: 32%;
   display: inline-block;
@@ -350,27 +353,27 @@ td span {
   padding-bottom: 20px;
   padding-top: 38px;
 }
-.ncustomers p {
+#ncustomers p {
   padding-left: 26px;
   padding-right: 36px;
 }
-.atlassian {
+#atlassian {
   float: right;
   width: 60%;
   height: 24%;
   display: inline-block;
 }
-.atlassian img {
+#atlassian img {
   width: 100%;
   padding-top: 25px;
 }
-.startgrowing {
+#startgrowing {
   width: 50%;
   height: 27%;
   margin-top: 60px;
   display: inline-block;
 }
-.startgrowing h2 {
+#startgrowing h2 {
   font-size: 34px;
   font-weight: 800;
   padding-bottom: 20px;
@@ -381,23 +384,23 @@ td span {
   cursor: pointer;
 }
 
-.woman {
+#woman {
   width: 170px;
   height: 350px;
   float: right;
 }
-.woman img {
+#woman img {
   width: 300px;
 }
 
-.footer {
+#footer {
   width: 100%;
   height: 80vh;
   background-color: #2E3F50;
   color: white;
 }
 
-.footer-top {
+#footer-top {
   width: 100%;
   height: 75%;
 }
@@ -418,7 +421,7 @@ td span {
   font-weight: lighter;
 }
 
-.sidebar {
+#button {
   float: left;
   background-color: white;
   margin-right: 38px;
@@ -431,51 +434,50 @@ td span {
 
 }
 
-.footer-top i {
+#footer-top i {
   float: left;
   padding: 13px;
   cursor: pointer;
   padding-top: 25px;
 }
 
-.sidebar i {
+#button i {
   width: 19%;
   height: 6%;
   background-color: red;
 }
 
-.footer-bottom {
+#footer-bottom {
   width: 100%;
   height: 25%;
 }
-.languages {
+#languages {
   width: 100%;
   height: 30%;
   border-bottom: 1px solid white;
   text-align: center;
 }
-.languages a {
+#languages a {
   color: white;
   padding: 0 12px;
 }
-.footer-bottom-left {
+#footer-bottom-left {
   width: 50%;
   height: 69%;
   float: left;
 }
-.footer-bottom-left img {
+#footer-bottom-left img {
   padding-top: 30px;
 }
-.footer-bottom-left .mark {
-
+#footer-bottom-left .mark {
   color: white;
 }
-.footer-bottom-right {
+#footer-bottom-right {
   width: 50%;
   height: 69%;
   float: right;
 }
-.footer-bottom-right .legal {
+#footer-bottom-right #legal {
   color: white;
   float: right;
   padding-top: 30px;
