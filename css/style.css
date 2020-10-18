@@ -15,20 +15,14 @@ a {
   color: black;
 }
 
-/* .clearfix.footer-top {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
 /* bottoni */
 .button-orange {
   width: 119px;
   height: 26px;
   border-radius: 5px;
   padding: 7px;
-  border: 1px solid #FC7959;
   color: white;
+  border: 1px solid #FC7959;
   background-color: #FC7959;
 }
 .button-orange-big {
@@ -36,8 +30,8 @@ a {
   height: 26px;
   border-radius: 5px;
   padding: 10px 20px;
-  border: 1px solid #FC7959;
   color: white;
+  border: 1px solid #FC7959;
   background-color: #FC7959;
 }
 .button-white {
@@ -45,8 +39,8 @@ a {
   height: 26px;
   border-radius: 5px;
   padding: 7px;
-  border: 1px solid #FC7959;
   color: #FC7959;
+  border: 1px solid #FC7959;
   background-color: white;
 }
 /* /bottoni */
@@ -56,14 +50,14 @@ header {
 }
 
 #header-top {
-  width: 100%;
-  height: 8vh;
-  background-color: #EAF0F6;
-  border-bottom: 1px solid black;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
+  width: 100%;
+  height: 8vh;
+  border-bottom: 1px solid black;
+  background-color: #EAF0F6;
 }
 
 #header-top-left {
@@ -118,9 +112,7 @@ header {
 
 #jumbotron {
   width: 100%;
-  height: 63vh;
-}
-#jumbotron {
+  height: 80vh;
   background-color: #FEF6EF;
   background-image: url(../img/jumbotron.png);
   background-size: contain;
@@ -130,7 +122,7 @@ header {
 }
 #blue-row {
   width: 100%;
-  height: 54px;
+  height: 12%;
   background-color: #AFEBE5;
   border-top: 3px solid #33475D;
   border-bottom: 3px solid #33475D;
@@ -143,9 +135,8 @@ header {
   width: 50%;
   height: 70%;
 }
-#containerh1 h1, p, a {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#containerh1 h1, #containerh1 p {
+  padding: 6% 0;
 }
 #containerh1 h1 {
   font-weight: 900;
@@ -154,9 +145,9 @@ header {
   display: block;
 }
 
-.container-top {
+#container-top {
   width: 100%;
-  height: 200vh;
+  height: 172vh;
   background-color: #F6F8FA;
   text-align: center;
 }
@@ -164,25 +155,18 @@ header {
   width: 100%;
   height: 25%;
 }
-.container-crm.top {
-  margin: auto;
-  padding-top: 30px;
-}
 .container-crm.top img {
   width: 25%;
-  padding-top: 3%
+  padding-top: 3%;
 }
 .container-crm.top h2 {
   font-weight: 900;
-}
-.container-crm.top p {
-  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .container-crm.bottom {
   background-color: white;
-  margin: auto;
-  margin-top: 30px;
+  margin-top: 7%;
 }
 #block-left {
   width: 30%;
@@ -192,13 +176,13 @@ header {
 #block-left img {
   width: 54%;
   float: left;
-  padding-top: 66px;
-  padding-left: 90px;
-  padding-bottom: 30px;
+  padding-top: 20%;
+  margin-left: 24%;
+  padding-bottom: 15%;
 }
 #block-left a {
   float: left;
-  margin-left: 86px;
+  margin-left: 24%;
 }
 
 #block-right {
@@ -208,26 +192,26 @@ header {
   float: right;
 }
 #block-right h3 {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 9%;
+  padding-bottom: 3%;
   font-size: 30px;
 }
 #block-right h4 {
   text-transform: uppercase;
   font-size: 20px;
-  padding-bottom: 30px;
-  padding-top: 25px;
+  padding-bottom: 6%;
+  padding-top: 8%;
 }
 #block-right i {
   color: orange;
 }
 #block-right span {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .column {
-  margin-top: 40px;
+  margin-top: 5%;
   background-color: white;
 }
 .column.left {
@@ -246,8 +230,8 @@ header {
 }
 .column.left a, .column.center a, .column.right a {
   display: inline-block;
-  margin-top: 35px;
-  margin-bottom: 20px;
+  margin-top: 20%;
+  margin-bottom: 8%;
 }
 .spessore {
   width: 80%;
@@ -257,7 +241,7 @@ header {
 .column img {
   width: 100px;
   height: 100px;
-  padding-top: 50px;
+  padding-top: 17%;
 }
 .column h3 {
   padding-top: 20px;
@@ -267,7 +251,7 @@ header {
   padding-bottom: 90px;
   border-bottom: 1px solid black;
 }
-.column h3,p {
+.column h3,.column p {
   padding: 10px;
 }
 .column h4 {
