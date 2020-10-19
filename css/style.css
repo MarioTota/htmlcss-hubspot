@@ -212,6 +212,7 @@ header {
 }
 
 .column {
+  height: 41%;
   margin-top: 5%;
   background-color: white;
   border-radius: 4px;
@@ -220,20 +221,26 @@ header {
   width: 30%;
   display: inline-block;
   float: left;
+  position: relative;
 }
 .column.center {
   width: 30%;
   display: inline-block;
+  position: relative;
 }
 .column.right {
   width: 30%;
   display: inline-block;
   float: right;
+  position: relative;
+}
+.column-block {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
 }
 .column.left a, .column.center a, .column.right a {
   display: inline-block;
-  margin-top: 20%;
-  margin-bottom: 8%;
 }
 .spessore {
   width: 80%;
@@ -244,20 +251,17 @@ header {
   width: 100px;
   height: 100px;
   padding-top: 17%;
+  padding-bottom: 13%
 }
 .column h3 {
-  padding-top: 3%;
-  padding-bottom: 10%;
   font-weight: bolder;
+  padding-bottom: 13%;
 }
-.column p {
-  padding-bottom: 30%;
-  border-bottom: 1px solid black;
-}
-
 .column h4 {
   text-transform: uppercase;
-  padding: 10% 0;
+  border-top: 1px solid black;
+  padding-top: 19%;
+  padding-bottom: 10%;
 }
 .column span {
   display: block;
@@ -267,11 +271,14 @@ header {
   padding-right: 8%;
   color: #FC7959;
 }
+.column a {
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
 
 #container-mid {
   width: 100%;
   height: 80vh;
-  background: rgb(32,172,182);
   background: linear-gradient(90deg, rgba(32,172,182,1) 35%, rgba(35,188,165,1) 100%);
   color: white;
   text-align: center;
@@ -284,15 +291,7 @@ header {
 .learngrow p {
   padding-bottom: 4%;
 }
-.table {
-  width: 100%;
-  height: 100%;
-}
-.block {
-  width: 24%;
-  height: 27%;
-  display: inline-block;
-}
+
 table {
   position: absolute;
   top: 50%;
@@ -305,6 +304,8 @@ table {
   margin-top: 5%;
 }
 td {
+  height: 100%;
+  vertical-align: bottom;
   width: 23%;
   padding: 2% 2%;
   border: 1px solid white;
@@ -316,7 +317,7 @@ td {
 td i {
   font-size: 32px;
 }
-#webp {
+td #webp {
   height: 40px;
 }
 td i,td img, #webp{
@@ -335,8 +336,9 @@ td span {
   font-weight: 100;
 }
 .description {
-  padding-top: 5%;
+  padding-top: 12%;
 }
+
 #container-bottom {
   width: 100%;
   height: 80vh;
@@ -363,12 +365,17 @@ td span {
   float: right;
   width: 60%;
   height: 24%;
+  padding-top: 5%;
   display: inline-block;
+  text-align: center;
 }
 #atlassian img {
-  width: 100%;
-  padding-top: 4%;
+  width: 20%;
+  line-height: 100%;
+  vertical-align: middle;
+  padding: 2%;
 }
+
 #startgrowing {
   width: 50%;
   height: 27%;
