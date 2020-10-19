@@ -212,7 +212,7 @@ header {
 }
 
 .column {
-  height: 41%;
+  height: 39%;
   margin-top: 5%;
   background-color: white;
   border-radius: 4px;
@@ -436,7 +436,6 @@ td span {
   border-radius: 5px;
   margin-top: 8px;
   cursor: pointer;
-
 }
 
 #footer-top i {
