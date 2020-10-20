@@ -251,8 +251,8 @@ header {
   padding-bottom: 6%;
   padding-top: 8%;
 }
-#block-right i {
-  color: orange;
+#block-right span::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f058"; color: #FC7959; padding-right: 1%;
 }
 #block-right span {
   padding-left: 2%;
@@ -287,6 +287,9 @@ header {
   bottom: 0;
   width: 80%;
 }
+.column-block span::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f058"; color: #FC7959; padding-right: 8%;
+}
 .column.left a, .column.center a, .column.right a {
   display: inline-block;
 }
@@ -314,10 +317,6 @@ header {
 .column span {
   display: block;
   text-align: left;
-}
-.column i {
-  padding-right: 8%;
-  color: #FC7959;
 }
 .column a {
   margin-top: 10%;
@@ -462,17 +461,15 @@ td span {
   display: inline-block;
   line-height: 2.5;
 }
-.link-strong {
+.footer-block strong {
+  font-size: 15px;
+  color: white;
   font-weight: bolder;
   line-height: 6.0;
-  color: white;
 }
 .footer-block a {
   color: #CBD7E2;
   font-size: 12px;
-}
-.footer-block strong {
-  font-size: 15px;
 }
 
 #button {
